@@ -24,7 +24,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 text-white">
+    <nav className=" bg-transparent fixed top-0 left-0 w-full z-50 text-white">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Name */}
         <a href="#home" className="flex items-center gap-3">
